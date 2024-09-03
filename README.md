@@ -10,6 +10,8 @@ And display it using the syncfusion_flutter_pdfviewer package.
 The application also utilizes Dart isolates to perform the PDF generation in a separate thread,
 ensuring the main UI thread remains responsive.
 
+## Explanation
+
 The _generatePdf function is responsible for generating the PDF. It defines the HTML content,
 retrieves the application's document directory, and uses the HtmlToPdf.convertFromHtmlContent method
 to generate the PDF file. The path to the generated PDF file is then returned:
